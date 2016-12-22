@@ -1,0 +1,284 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .item span{
+        font-size: 32px;
+    }
+    
+    .left-butt,.right-butt{
+        font-size: 108px;
+    }
+    
+   
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 1100px) {
+    
+    
+    div[class*='slide-frame']{
+        transform: scale(0.7);
+    }
+    
+}
+
+@media only screen and (max-width : 890px) {
+    .nav-menu{
+        display: none;
+        width: 100%;
+        margin-top: 18px;
+        box-shadow:0px 0px 5px black;
+        margin-top: 28px;
+        padding: 0px;
+        margin-left: -30px;
+        position: fixed;
+        z-index: 1;
+        
+    }
+    
+    .menu{
+        z-index: 9990;
+        box-shadow: 0px 0px 5px black;
+        position: fixed;
+        z-index: 99;
+       
+    }
+    
+     .nav-menu li{
+        float:none;
+        background: rgba(255,255,255,.7);
+        width: 100%;
+        border-bottom: 1px solid #eee;
+        text-align: center;
+         height: 40px;
+         line-height: 40px;
+         margin: 0px;
+         padding: 0px;
+         z-index: 1;
+         
+
+    }
+    
+    .button-menu{
+        display: block;
+    }
+    
+}
+
+@media only screen and (min-width : 890px){
+    .nav-menu{
+        display: block ! important;
+       
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+    .head-text{
+        font-size: 28px;
+        
+    }
+    
+    .shares-text{
+        font-size: 28px;
+    }
+    
+    .text-center{
+        margin-left: -125px;
+        margin-top: -50px;
+    }
+    
+    .timer-text{
+        font-size: 28px;
+        line-height: 50px;
+    }
+    
+    .line{
+        width: 285px;
+        margin-top: -50px;
+        margin-left: -15px;
+    }
+    
+    .shares-sk{
+        font-size: 14px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    
+    .add-text{
+        font-size: 14px;
+    }
+    
+    .flipp{
+       transform: scale(0.7);
+    }
+    
+    .button-z{
+        transform: scale(0.8);
+        margin-top: 40px;
+    }
+    
+    .usl-text{
+        font-size: 24px;
+    }
+  
+    .left-butt,.right-butt{
+        font-size: 50px;
+    }
+    
+     .left-butt{
+        left: 1%;
+    }
+    
+    .right-butt{
+        right: 1%;
+    }
+    
+    .item span{
+        font-size: 24px;
+    }
+    
+    .about-text{
+        font-size: 24px;
+    }
+    
+    .about-Bigtext{
+        font-size: 18px;
+    }
+    
+    .about{
+        padding-top: 75px;
+    }
+    
+    
+}
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+        .flipp{
+       transform: scale(0.5);
+            
+    }
+    
+    .button-z{
+        transform: scale(0.6);
+        margin-top: 30px;
+    }
+    
+    #fil{
+        font-size: 140px;
+    }
+    
+    .move{
+        margin-left: -70px;
+        margin-top: -120px;
+    }
+    
+    .copy{
+        transform: scale(0.7);
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+         .flipp{
+       transform: scale(0.4);
+    }
+    
+    .left-butt{
+        left: 1%;
+    }
+    
+    .right-butt{
+        right: 1%;
+    }
+    
+    .left-butt,.right-butt{
+        font-size: 40px;
+    }
+    .item span{
+        font-size: 18px;
+    }
+    
+    ol.carousel-indicators{
+        bottom: -170px;
+    }
+    
+    ol.carousel-indicators li{
+        margin-left: -2px;
+    }
+    
+
+}
+
+@media only screen and (max-width : 600px) {
+    .main-form input{
+        width: 80%;
+    }
+    
+    #area{
+       max-width: 80%;
+        min-width: 80%;
+        
+        
+    }
+    
+    .copy{
+        font-size: 18px;
+        margin-top: 4px;
+        margin-left:-90px;
+    }
+    
+    input.s-button{
+        width: 40%;
+    }
+    
+    .sm-text{
+        transform: scale(0.7)
+    }
+    
+    .form-text{
+         font-size: 24px;
+    }
+    
+    .form-text.mini{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+     input.s-button.marg{
+        margin-left: -20px;
+         
+    }
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
